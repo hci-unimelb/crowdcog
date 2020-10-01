@@ -1,0 +1,72 @@
+.jspsych-btn-green{
+    color:#fff;
+    background-color:#5cb85c;
+    border-color:#4cae4c
+}
+
+.jspsych-btn-red{
+    color:#fff;
+    background-color:#d9534f;
+    border-color:#d43f3a
+}
+
+
+.task-switching-box-container{
+    width: 180px;
+    height: 180px;
+    display:inline-block;
+}
+
+.task-switching-box {
+    width: 50%;
+    height: 50%;
+    float: left;
+    background: #ddd;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+    font-size: 2em;
+}
+
+.task-switching-box:nth-of-type(1) {
+}
+
+.task-switching-box:nth-of-type(2) {
+    border-left: 1px solid #000000;
+}
+
+.task-switching-box:nth-of-type(3) {
+    border-top: 1px solid #000000;
+}
+
+.task-switching-box:nth-of-type(4) {
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+}
+
+.n-back-container {
+    height: 180px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.n-back-box {
+    height: 180px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 180px;
+    font-size: 5em;
+}
+
+.n-back-indicator {
+    height: 30px;
+    background-color: #dddddd;
+}
+
+.n-back-indicator-correct {
+    background-color: #5cb85c;
+}
+
+.n-back-indicator-wrong {
+    background-color: #d9534f;
+}

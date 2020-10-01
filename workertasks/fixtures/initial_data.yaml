@@ -1,0 +1,30 @@
+- model: workertasks.Worker
+  pk: A3M46F399JDGSG
+  fields:
+    status: 0
+    qualification: 0
+- model: workertasks.Worker
+  pk: KHJGSKDHFJSDH
+  fields:
+    status: 0
+    qualification: 0
+- model: workertasks.Task
+  pk: 1
+  fields:
+    task_status: 0
+- model: workertasks.Task
+  pk: 2
+  fields:
+    task_status: 0
+- model: workertasks.Question
+  fields:
+    task_id: 1
+    question_id: 1
+    total_assignments: 10
+    available_assignments: 0
+- model: workertasks.Question
+  fields:
+    task_id: 1
+    question_id: 2
+    total_assignments: 10
+    available_assignments: 0

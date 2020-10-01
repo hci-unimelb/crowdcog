@@ -1,0 +1,60 @@
+In this task you will see paintings. From the list to the right of the picture please mark the items appearing in the drawing. Note that there may be more than one item , your goal is to mark all existing items. 
+
+
+In this picture the right anwer will be "Fish" and "Fishing rod".
+
+This test has 16 questions.
+
+Pictures courtesy of  Walt Curlee, www.waltcurleeart.com
+
+Picture 1 *
+  Frog  Horse  Ship  Pumpkin
+
+Picture 2 *
+  Sun  Horse  Truck  Ship
+
+Picture 3 *
+  River  Squirrel  Barrel  Chicken
+
+Picture 4 *
+  Cows  Ladder  Children  Chicken
+
+Picture 5 *
+  River  Ax  Car  Water pump
+
+Picture 6 *
+  Sun  Ship  Frog  Horse
+
+Picture 7 *
+  Ladder  Bicycle  Barrel  Bridge
+
+Picture 8 *
+  Fire  Barrel  Tractor  Granary
+
+Picture 9 *
+  Cows  Doll  River  Hay
+
+Picture 10 *
+  Mashrooms  Doll  Ax  River
+
+Picture 11 *
+  Ship  Car  Fisherman  Frog
+
+Picture 12 *
+  Car  Ax  River  Squirrel
+
+Picture 13 *
+  Fisherman  Wheels  Chicken  River
+
+Picture 14 *
+  Sunflower  Fisherman  Farmers  Church
+
+Picture 15 *
+  Ax  Chicken  Lumber  Birds
+
+Picture 16 *
+  Church  Barrel  River  Sunflower
+
+
+
+

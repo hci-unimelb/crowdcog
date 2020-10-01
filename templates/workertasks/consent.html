@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--
+  The consent.html displays the text of your IRB-approved
+  consent form.  Even if you are not required to provide
+  a consent form, it is helpful to use this form to
+  describe what people can do if an error comes up, etc...
+
+-->
+{% load static %}
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Study on Cognitive Skills of Crowdworkers - Informed Consent Form</title>
+        <link rel="stylesheet" href="{% static "css/bootstrap.min.css" %}" type="text/css" />
+        <link rel="stylesheet" href="{% static "css/style.css" %}" type="text/css" />
+        <script type="text/javascript">
+            function onexit() {
+              self.close(); // no harm, no foul here
+            }
+        </script>
+    </head>
+    <body>
+        <div id="container-consent">
+            <div id="consent">
+                <h1>We need your consent to proceed</h1>
+                <hr />
+                <div class="legal well">
+                    <p>You have been contacted via the Amazon MTurk platform to invite you to participate in our study investigating the quality of crowdworkers contributions.
+                        Participation will involve the completion of a set of cognitive tests followed by typical crowdsourcing tasks on selected topics (item recognition, sentiment analysis, proofreading). No identifying information will be collected as part of our research data, and while participation will involve the recording of your worker ID, this will be removed from the data immediately after download. We will therefore not be able to identify your particular responses in our data.
+                        We do not anticipate any risks to you from participation. You will receive the agreed upon value of $0.4 (USD) for the completion of the HIT. Participation is voluntary and you have the right to withdraw from further participation at any stage up to the submission of your data. However, you will not receive any payment if you decide to abandon the task before completion. Submission of the final results will be taken as an indication of your consent.
+                    </p>
+                    <p>
+                        If you would like more information about the project, please contact the researchers using the Amazon's communication functionality.
+
+                    </p>
+
+                    <button type="button" class="btn btn-default btn-sm" onClick="window.print();">
+                    <span class="glyphicon glyphicon-print"></span> Print a copy of this
+                    </button>
+                </div>
+
+                <hr />
+                <h4>Do you understand and consent to these terms?</h4>
+                <br />
+
+                <center>
+                    <button type="button" class="btn btn-primary btn-lg" onClick="window.location='/workertasks/cognitivetests?hitId={{ hitId }}&assignmentId={{ assignmentId }}&workerId={{ workerId }}'">
+                    <span class="glyphicon glyphicon-ok"></span> I agree
+                    </button>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button type="button" class="btn btn-danger btn-lg" onClick="onexit()">
+                    <span class="glyphicon glyphicon-ban-circle"></span> No thanks, I do not want to do this HIT
+                    </button>
+                </center>
+
+            </div>
+        </div>
+    </body>
+</html>
+
